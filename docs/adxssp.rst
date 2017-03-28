@@ -16,6 +16,7 @@ http://sspcp.adx.yumimobi.com/
 定向设置测试
 ----------------
 定向设置添加成功后，将会看到如下图所示的固定广告：
+
 .. image:: /img/ssp_filter2.png
 
 .. note:: 添加或者删除定向，需要大约1分钟后生效。
