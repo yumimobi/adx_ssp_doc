@@ -11,7 +11,7 @@ http://sspcp.adx.yumimobi.com/
 .. image:: /img/ssp_filter1.png
 
 .. warning:: 如果输入的IMEI或IDFA已存在，则不会添加成功。
-
+.. warning:: 单个ssp最多可设置5条定向设置！
 
 定向设置测试
 ----------------
