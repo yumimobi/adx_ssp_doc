@@ -33,65 +33,63 @@ ssp投放报表查询接口
 +---------------+----------+---------+-------------------------------------------------------------------+
 
 * 请求完整示例:
-``http://sspcp.adx.yumimobi.com/api/index?token=yourtoken&ad_type=1,2&device_os=android
-&app_id=1006908,1006909,1006911&currency=RMB&start_date=2017-04-05&end_date=2017-04-12
-&page_num=10&page_cur=2``
+.. note:: http://sspcp.adx.yumimobi.com/api/index?token=yourtoken&ad_type=1,2&device_os=android&app_id=1006908,1006909,1006911&currency=RMB&start_date=2017-04-05&end_date=2017-04-12&page_num=10&page_cur=2
 
 
 * 返回示例:
 
 .. sourcecode:: js
 
-{
-  "errno": "0",
-  "errmsg": "",
-  "pageAll": 1,
-  "total": {
-    "query_count": "1,250,808,382",
-    "query_success_count": "604,824,619",
-    "display_count": "467,436,181",
-    "fill_rate": "77.28%",
-    "click_count": "6,511,146",
-    "click_rate": "1.39%",
-    "consume_amount": "2,961.47",
-    "ecpm": "0.01",
-    "cpc": "0.00"
-  },
-  "list": [
     {
-      "day": "2017-04-12",
-      "app_name": "-",
-      "device_os": "-",
-      "ad_type": "-",
-      "country": "-",
-      "query_count": "74,233,755",
-      "query_success_count": "33,808,008",
-      "display_count": "30,729,782",
-      "fill_rate": "45.54%",
-      "click_count": "405,734",
-      "click_rate": "1.32%",
-      "consume_amount": "0.00",
-      "ecpm": "-",
-      "cpc": "-"
-    },
-    {
-      "day": "2017-04-11",
-      "app_name": "-",
-      "device_os": "-",
-      "ad_type": "-",
-      "country": "-",
-      "query_count": "144,194,757",
-      "query_success_count": "62,437,255",
-      "display_count": "53,846,209",
-      "fill_rate": "43.30%",
-      "click_count": "806,177",
-      "click_rate": "1.50%",
-      "consume_amount": "0.00",
-      "ecpm": "-",
-      "cpc": "-"
+      "errno": "0",
+      "errmsg": "",
+      "pageAll": 1,
+      "total": {
+        "query_count": "1,250,808,382",
+        "query_success_count": "604,824,619",
+        "display_count": "467,436,181",
+        "fill_rate": "77.28%",
+        "click_count": "6,511,146",
+        "click_rate": "1.39%",
+        "consume_amount": "2,961.47",
+        "ecpm": "0.01",
+        "cpc": "0.00"
+      },
+      "list": [
+        {
+          "day": "2017-04-12",
+          "app_name": "-",
+          "device_os": "-",
+          "ad_type": "-",
+          "country": "-",
+          "query_count": "74,233,755",
+          "query_success_count": "33,808,008",
+          "display_count": "30,729,782",
+          "fill_rate": "45.54%",
+          "click_count": "405,734",
+          "click_rate": "1.32%",
+          "consume_amount": "0.00",
+          "ecpm": "-",
+          "cpc": "-"
+        },
+        {
+          "day": "2017-04-11",
+          "app_name": "-",
+          "device_os": "-",
+          "ad_type": "-",
+          "country": "-",
+          "query_count": "144,194,757",
+          "query_success_count": "62,437,255",
+          "display_count": "53,846,209",
+          "fill_rate": "43.30%",
+          "click_count": "806,177",
+          "click_rate": "1.50%",
+          "consume_amount": "0.00",
+          "ecpm": "-",
+          "cpc": "-"
+        }
+      ]
     }
-  ]
-}
 
 
 
