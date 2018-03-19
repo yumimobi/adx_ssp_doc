@@ -4,9 +4,9 @@
 ssp数据查询接口
 ----------------
 
-* 请求url: ``http://sspcp.adx.yumimobi.com/query/data``
+* 请求url: ``http://sspcp.adx.yumimobi.com/query/data?``
 
-* 请求方式: ``POST GET`` 
+* 请求方式: ``POST GET``
 
 * 请求参数
 
@@ -23,6 +23,9 @@ ssp数据查询接口
 +---------------+----------+---------+--------------------------+
 | app_id        | 否       | string  | 应用id                   |
 +---------------+----------+---------+--------------------------+
+
+* 请求完整示例:
+.. note:: http://sspcp.adx.yumimobi.com/query/data?token=token&app_id=1008015&start_date=2013-03-12&end_date=2018-03-19
 
 * 返回示例
 
