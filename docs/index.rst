@@ -8,6 +8,8 @@
 
 Contents:
 
+.. warning:: 自2018年10月1号起，该文档不再更新，最新文档查看地址（https://github.com/yumimobi/integration_API_for_SSP）。
+
 .. toctree::
    :maxdepth: 1
    :glob:
