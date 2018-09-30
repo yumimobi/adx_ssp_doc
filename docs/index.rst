@@ -6,15 +6,8 @@
 玉米广告-ssp对接文档
 ==================================================
 
-Contents:
+.. warning:: 该文档将不再维护，点击该链接地址即可查看最新文档并保存（https://github.com/yumimobi/integration_API_for_SSP）。
 
-.. warning:: 自2018年10月1号起，该文档不再更新，最新文档查看地址（https://github.com/yumimobi/integration_API_for_SSP）。
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   *
 
 
 
